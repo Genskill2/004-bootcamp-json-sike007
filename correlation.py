@@ -46,8 +46,3 @@ def diagnose(name):
 	ma=max(dic, key=dic.get)
 	mi=min(dic, key=dic.get)
 	return ma,mi
-def main():
-	print(diagnose('journal.json'))
-	
-if __name__ == "__main__":
-	main()
